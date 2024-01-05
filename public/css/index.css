@@ -1,68 +1,113 @@
 .task1 .item {
+  position: relative;
+  left: 200px;
+ top: 150px;
 }
 
 .task2 .item {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
 }
 
 .task3 .item {
 }
 
 .container4 {
+ position: absolute;
+ left: calc(45%);
 }
 
 .task4 {
   width: 1000px;
 }
 .task4 .item {
+ 
 }
 
 .task5 .item1 {
   background-color: red;
+position: absolute;
+top: 20px;
+left: 20px;
+z-index: 1;
 }
 .task5 .item2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+
 }
 .task5 .item3 {
   background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .task6 .item {
+  float: left;
 }
 
 .task7 .item {
+  float: right;
 }
 
 .task8 .item1 {
+ 
 }
 .task8 .item2 {
   height: 120px;
+  position: absolute;
+  right: 0;
+  top: 0;
+ 
 }
 
 .task8 p {
+ margin-top: 40px;
+ position: absolute;
 }
 
 .task9 .item1 {
   height: 200px;
 }
 .task9 .item2 {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .task9 p {
+  float: left;
+  position: absolute;
 }
 
 .task10 .item1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 200px;
 }
 .task10 .item2 {
 }
 .task10 p {
+  float: right;
 }
 
 .task11 .img-item {
   height: 100%;
-  width: 100%;
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 .task12 .img-item {
   height: 100%;
   width: 100%;
+  display: block;
+ 
 }
 
 .task13 .img-item {
@@ -72,31 +117,45 @@
 
 .task14 .img-item {
   height: 100%;
-  width: 100%;
+  width: 53%;
+  display: block;
+  margin: auto;
 }
 
 .task15 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  position: absolute;
+ left: 37%;
+ 
+ 
+
 }
 
 .task16 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  position: absolute;
+  right: 37%;
+  top: -25%;
 }
 
 .task17 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  position: absolute;
+  bottom: -25%;
 }
 
 .task18 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  position: absolute;
+  left: 40px;
 }
 
 .task19 .img-item {
@@ -106,13 +165,16 @@
 }
 
 .task20 {
+  user-select: none;
 }
 
 .task21 {
 }
 
 .task22 {
-}
+  cursor: pointer;
+ }
 
 html {
+  scroll-behavior: smooth;
 }
